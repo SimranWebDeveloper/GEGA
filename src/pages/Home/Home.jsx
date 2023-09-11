@@ -5,7 +5,7 @@ import Home2 from "./Home2";
 import Matrix from "./Matrix";
 import Post from "./Post";
 import { GlobalContext } from "../../context/GlobalContext";
-
+import batman from "../../images/batman.jpg"
 // import {GoArrowRight} from 'react-icons/g'
 const Home = () => {
   // dark-light mode
@@ -17,7 +17,7 @@ const Home = () => {
       <div className={`home-section group relative h-96 lg:h-128 font-open dark:text-gega-grey text-black dark:bg-black bg-gega-grey ${mode && 'dark' }`}  id="dasda">
         {/* Hero img */}
         <img
-          src="../../src/images/batman.jpg"
+          src={batman}
           alt="batman"
           className="h-full w-full object-cover"
         />
