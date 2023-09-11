@@ -11,7 +11,7 @@ import Contact from '../pages/Contact'
 const AppRouter = () => {
   return (
 
-        <BrowserRouter>
+        <BrowserRouter basename='/SimranWebDeveloper/GEGA'>
         <Header/>
         <Routes>
             <Route path='/' element={<Home/>} />
